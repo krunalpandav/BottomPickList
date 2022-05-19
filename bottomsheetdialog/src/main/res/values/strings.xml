@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bottom Sheet Dialog</string>
+
+    <string name="text_search">Search</string>
+    <string name="text_cancel">Cancel</string>
+
+    <string name="text_zero">0</string>
+
+    <string name="text_no_record_found">No Record Found</string>
+</resources>

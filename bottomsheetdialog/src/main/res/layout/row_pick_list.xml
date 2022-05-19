@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_60dp"
+    android:background="?selectableItemBackground">
+
+    <FrameLayout
+        android:id="@+id/lytUser"
+        android:layout_width="@dimen/margin_40dp"
+        android:layout_height="@dimen/margin_40dp"
+        android:layout_marginStart="@dimen/margin_10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.kp65.bottomsheetdialog.extensions.utils.RoundedImageView
+            android:id="@+id/ivUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_mini_plash_holder" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            style="@style/PrimaryTextViewRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_chat_profile"
+            android:gravity="center"
+            android:text="@string/text_zero"
+            android:textColor="@color/colorGrayAlpha" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/PrimaryTextViewMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginEnd="@dimen/margin_10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:drawablePadding="@dimen/margin_10dp"
+        android:textColor="@color/colorProfileTitle"
+        android:paddingEnd="@dimen/margin_5dp"
+        android:paddingStart="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lytUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lytUser"
+        app:layout_constraintTop_toTopOf="@+id/lytUser"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:drawableEndCompat="@drawable/ic_selected" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

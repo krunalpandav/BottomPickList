@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BottomSheetDialog</string>
+
+    <string name="btn_simple_popup">Simple Popup</string>
+    <string name="btn_search_popup">Search Popup</string>
+    <string name="btn_icon_popup">Icon Popup</string>
+    <string name="btn_selected_popup">Selected Item Popup</string>
 </resources>
