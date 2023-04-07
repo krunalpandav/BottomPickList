@@ -2,7 +2,7 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
-
+    id("maven-publish")
 }
 
 android {
@@ -49,6 +49,4 @@ dependencies {
     //glide - image loading
     implementation("com.github.bumptech.glide:glide:4.15.1")
     kapt("com.github.bumptech.glide:compiler:4.15.1")
-
-
 }
