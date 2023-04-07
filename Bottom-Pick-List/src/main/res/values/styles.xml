@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="FontRegular">
+        <item name="android:textSize">@dimen/font_18sp</item>
+    </style>
+
+    <style name="FontMedium">
+        <item name="android:textSize">@dimen/font_16sp</item>
+    </style>
+
+    <style name="FontSmall">
+        <item name="android:textSize">@dimen/font_14sp</item>
+    </style>
+
+    <style name="FontExtraSmall">
+        <item name="android:textSize">@dimen/font_10sp</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <!-- set the rounded drawable as background to your bottom sheet -->
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
+</resources>

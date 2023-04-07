@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_green">#1DBE75</color>
+    <color name="color_white_alpha">#b4ffffff</color>
+    <color name="color_gray_dark">#FFC0C5D2</color>
+    <color name="color_gray_alpha">#bf637280</color>
+    <color name="color_black_text">#FF161616</color>
+    <color name="color_profile_title">#FF1A173B</color>
+
+    <!--<color name="colorPrimary">#FF25C97F</color>
+    <color name="colorPrimaryDark">#FF1AA35A</color>
+    <color name="colorAccent">#FF1AA35A</color>
+
+    <color name="colorPrimaryButton">#FF25C97F</color>
+    <color name="colorPrimaryLight">#2025C97F</color>
+    <color name="blackAlpha50">#80000000</color>
+    <color name="colorGrayBorder">#FFDCE0E6</color>
+    <color name="colorGrayHint">#FF8A96A0</color>
+
+
+
+    <color name="colorBgScreen">#fafcfb</color>
+    <color name="colorPrimaryDrawer">#cc25c97f</color>
+    <color name="colorPrimaryAlpha">#3325C97F</color>
+    <color name="colorSeparator">#FFE6EAEE</color>
+
+    <color name="colorLightRed">#FFFB6B5B</color>
+    <color name="colorGrayDesc">#FFC2C8CD</color>
+
+    <color name="colorGrayBGAction">#FFECF0F4</color>
+    <color name="colorDarkYellow">#FFDDC20A</color>
+    <color name="colorRedDark">#FFDA4068</color>
+    <color name="colorBGTableTitle">#FFFFFFEE</color>
+    <color name="colorBGTableTitleGreen">#FFEEFFF2</color>
+    <color name="colorBGTableSel">#EDEDED</color>
+    <color name="colorBGRateUs">#80555555</color>
+    <color name="colorBGRateUsText">#FF007AFF</color>
+    <color name="colorStrategyMission">#DB9D42</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorBlackDark">#000000</color>
+    <color name="colorGray">#A7AAB2</color>
+    <color name="colorResourceBg">#FFEFF2F5</color>
+    <color name="color_range">#3025C97F</color>
+    <color name="color_shade_red">#fcecec</color>
+    <color name="color_range_dark">#8025C97F</color>
+    <color name="colorFilterRed">#FB6B5B</color>
+    <color name="colorFilterSel">#FFE3FFF3</color>
+    <color name="colorRed">#CE0000</color>
+    <color name="colorBlueLike">#3379B5</color>
+    <color name="colorYellowDark">#8A6D3B</color>
+    <color name="colorGreen">#41A045</color>
+    <color name="colorGreenTrans">#B1E6B3</color>
+
+    <color name="recurringTask">#663399</color>
+    <color name="tacticalProject">#ababab</color>
+    <color name="strategyGoal">#41a045</color>
+    <color name="successFactor">#4169e1</color>
+    <color name="risk">#fa8072</color>
+    <color name="marketing">#ce88cf</color>
+    <color name="idea">#d2d200</color>
+    <color name="problem">#eb4646</color>
+    <color name="focus">#FFB833</color>
+    <color name="generalAction">#000</color>
+    <color name="orangeRequest">#FFB833</color>
+    <color name="greenApprove">#B7D959</color>
+
+    <color name="colorFloatRed">#e74c3c</color>-->
+
+</resources>
